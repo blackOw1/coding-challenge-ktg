@@ -1,0 +1,29 @@
+@use '../helpers/variables' as variable;
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    
+    &-header, &-data {
+        padding: 8px;
+        text-align: left;
+    }
+
+    &-data {
+        border: 1px solid variable.$color-chinese-white;
+    }
+
+    &-header {
+        background-color: variable.$color-primary;
+        color: variable.$color-white;
+        
+    }
+
+    &-row[data-user-id] {
+        cursor: pointer;
+
+        &:hover {
+            background-color: variable.$color-lotion;
+        }
+    }
+}

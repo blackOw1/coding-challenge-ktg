@@ -1,0 +1,14 @@
+@use '../helpers/variables' as variable;
+
+.post {
+    border: 1px solid lightgray;
+    padding: 16px;
+
+    &-title {
+        margin-bottom: 8px;
+    }
+}
+
+.posts {
+    margin-top: 40px;
+}

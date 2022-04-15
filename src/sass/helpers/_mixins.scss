@@ -1,0 +1,45 @@
+@use 'variables' as v;
+@use '../helpers/functions' as fn;
+
+@mixin display($value) {
+    display: $value;
+}
+
+@mixin justify-content($value) {
+    justify-content: $value;
+}
+
+@mixin align-items($value) {
+    align-items: $value;
+}
+
+@mixin flex-direction($value) {
+    flex-direction: $value;
+}
+
+@mixin background-color($color) {
+    background-color: $color;
+}
+
+@mixin cursor($value) {
+    cursor: $value;
+}
+
+// FONTS
+
+@mixin text-transform($value) {
+    text-transform: $value;
+}
+
+@mixin text-decoration($value) {
+    text-decoration: $value;
+}
+
+@mixin font-size($size) {
+    // font-size: $size;
+    font-size: fn.getRemValue($size);
+}
+
+@mixin font-weight($value) {
+    font-weight: $value;
+}

@@ -1,0 +1,11 @@
+@use '../helpers/mixins' as mixin;
+
+.posts-container {
+    @include mixin.display(grid);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.posts-description {
+    margin-bottom: 16px;
+}

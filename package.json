@@ -1,0 +1,28 @@
+{
+  "name": "coding-challenge",
+  "version": "1.0.0",
+  "description": "Coding challenge for junior software developer role",
+  "default": "app.html",
+  "scripts": {
+    "start-app": "parcel app.html",
+    "build-app": "parcel build app.html --dist-dir ./dist"
+  },
+  "keywords": [
+    "coding",
+    "challenge",
+    "coding-challenge",
+    "js",
+    "javascript",
+    "web-dev",
+    "developer"
+  ],
+  "author": "Gerardo Ortiz",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.3"
+  }
+}
