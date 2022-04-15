@@ -2,10 +2,10 @@
   "name": "coding-challenge",
   "version": "1.0.0",
   "description": "Coding challenge for junior software developer role",
-  "default": "app.html",
+  "default": "index.html",
   "scripts": {
-    "start-app": "parcel app.html",
-    "build-app": "parcel build app.html --dist-dir ./dist"
+    "start-app": "parcel index.html",
+    "build-app": "parcel build index.html"
   },
   "keywords": [
     "coding",
